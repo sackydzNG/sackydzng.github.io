@@ -1,53 +1,19 @@
+@font-face {
+  /*a name to be used later*/
+  font-family: 'MSDos';
+  /*URL to font*/
+  src: url(ModernDOS8x16.ttf);
+}
+
 body {
-  font-family: 'Courier New', monospace;
+  font-family: 'MSDos';
   background-color: #000000;
   color: #ffffff;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  border-color: white;
-  border-style: solid;
-  border-top-width: 5px;
-  border-bottom-width: 5px;
-  float: left;
-  text-align: center;
-  padding: 7px 8px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ffffff;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #ffffff;
-  color: #000000;
-}
-
 p {
-  border-color: white;
-  border-width: 3px;
-  border-style: solid;
+  display: contents;
+  overflow: hidden;
   font-size: 20px;
-  padding: 7px 8px;
-}
-
-shill {
-  border-color: white;
-  border-width: 3px;
-  border-style: solid;
-  font-size: 20px;
-  padding: 7px 8px;
   float: left
 }
