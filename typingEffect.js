@@ -13,6 +13,6 @@ function appear(ie, t) {
     }, t)
 }
 typeImage(0, 1, "text", "screen");
-appear("box1", 2000);
+appear("box1", 3000);
 appear("box2", 4500);
-appear("box3", 5000);
+appear("box3", 6000);
