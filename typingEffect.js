@@ -12,7 +12,7 @@ function appear(ie, t) {
         input.style.display = 'block';
     }, t)
 }
-typeImage(0, 1, "text", "screen");
 appear("box1", 3000);
+typeImage(0, 1, "text", "screen");
 appear("box2", 4500);
 appear("box3", 6000);
